@@ -1,0 +1,204 @@
+2026-08-29T11:41:21.563624+00:00 Prometheus systemd-logind[5566]: New seat seat0.
+2026-08-29T11:41:28.105707+00:00 Prometheus passwd[6116]: password for 'hayat' changed by 'root'
+2026-08-29T11:41:29.948885+00:00 Prometheus gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-08-29T11:41:29.968994+00:00 Prometheus systemd-logind[5566]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-08-29T11:41:30.016016+00:00 Prometheus (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-08-29T11:41:30.017363+00:00 Prometheus systemd-logind[5566]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-08-29T11:41:52.440250+00:00 Prometheus unix_chkpwd[7314]: password check failed for user (hayat)
+2026-08-29T11:41:52.440502+00:00 Prometheus gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=hayat
+2026-08-29T11:42:14.776452+00:00 Prometheus systemd-logind[5566]: Watching system buttons on /dev/input/event16 (SEMICO USB Keyboard Consumer Control)
+2026-08-29T11:42:14.779917+00:00 Prometheus systemd-logind[5566]: Watching system buttons on /dev/input/event15 (SEMICO USB Keyboard)
+2026-08-29T11:42:14.782430+00:00 Prometheus systemd-logind[5566]: Watching system buttons on /dev/input/event17 (SEMICO USB Keyboard System Control)
+2026-08-29T11:42:31.536248+00:00 Prometheus unix_chkpwd[7430]: password check failed for user (hayat)
+2026-08-29T11:42:31.536562+00:00 Prometheus gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=hayat
+2026-08-29T11:42:40.879546+00:00 Prometheus gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-29T11:42:40.879615+00:00 Prometheus gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-29T11:42:40.885393+00:00 Prometheus gdm-password]: pam_unix(gdm-password:session): session opened for user hayat(uid=1000) by hayat(uid=0)
+2026-08-29T11:42:40.893296+00:00 Prometheus systemd-logind[5566]: New session '2' of user 'hayat' with class 'user' and type 'wayland'.
+2026-08-29T11:42:40.921652+00:00 Prometheus (systemd): pam_unix(systemd-user:session): session opened for user hayat(uid=1000) by hayat(uid=0)
+2026-08-29T11:42:40.922120+00:00 Prometheus systemd-logind[5566]: New session '3' of user 'hayat' with class 'manager' and type 'unspecified'.
+2026-08-29T11:42:41.116842+00:00 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T11:42:46.234058+00:00 Prometheus gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-08-29T11:42:46.243831+00:00 Prometheus systemd-logind[5566]: Session c1 logged out. Waiting for processes to exit.
+2026-08-29T11:42:46.248809+00:00 Prometheus systemd-logind[5566]: Removed session c1.
+2026-08-29T11:42:48.971041+00:00 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T11:42:48.971536+00:00 Prometheus pkexec[9172]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T11:42:56.511265+00:00 Prometheus systemd-logind[5566]: Removed session 1.
+2026-08-29T11:42:56.511672+00:00 Prometheus (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-08-29T11:46:04.455990+00:00 Prometheus polkitd[5532]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T11:47:01.190508+00:00 Prometheus CRON[12183]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T11:47:01.194284+00:00 Prometheus CRON[12183]: pam_unix(cron:session): session closed for user root
+2026-08-29T12:00:01.214626+00:00 Prometheus CRON[12761]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T12:00:01.216029+00:00 Prometheus CRON[12761]: pam_unix(cron:session): session closed for user root
+2026-08-29T12:47:01.225229+00:00 Prometheus CRON[13599]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T12:47:01.268925+00:00 Prometheus CRON[13599]: pam_unix(cron:session): session closed for user root
+2026-08-29T12:52:08.784532+00:00 Prometheus polkitd[5532]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T12:56:44.649664+00:00 Prometheus unix_chkpwd[17620]: password check failed for user (hayat)
+2026-08-29T12:56:44.649938+00:00 Prometheus sudo: pam_unix(sudo:auth): authentication failure; logname=hayat uid=1000 euid=0 tty=/dev/pts/1 ruser=hayat rhost=  user=hayat
+2026-08-29T12:56:53.450026+00:00 Prometheus unix_chkpwd[17621]: password check failed for user (hayat)
+2026-08-29T12:57:06.522865+00:00 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T12:57:06.522953+00:00 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T13:00:01.232898+00:00 Prometheus CRON[17941]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T13:00:01.234290+00:00 Prometheus CRON[17941]: pam_unix(cron:session): session closed for user root
+2026-08-29T13:07:26.845805+00:00 Prometheus PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+2026-08-29T13:07:26.853154+00:00 Prometheus polkitd[5532]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T13:07:32.169074+00:00 Prometheus unix_chkpwd[21721]: password check failed for user (hayat)
+2026-08-29T13:07:32.169544+00:00 Prometheus polkit-agent-helper-1[21717]: pam_unix(polkit-1:auth): authentication failure; logname= uid=0 euid=0 tty= ruser=hayat rhost=  user=hayat
+2026-08-29T13:07:38.222193+00:00 Prometheus unix_chkpwd[21729]: password check failed for user (hayat)
+2026-08-29T13:07:38.222536+00:00 Prometheus polkit-agent-helper-1[21722]: pam_unix(polkit-1:auth): authentication failure; logname= uid=0 euid=0 tty= ruser=hayat rhost=  user=hayat
+2026-08-29T13:07:45.347714+00:00 Prometheus PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+2026-08-29T13:08:56.824383+00:00 Prometheus polkitd[5532]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T13:09:45.602014+00:00 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T13:09:45.602570+00:00 Prometheus pkexec[22865]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T13:14:19.742051+00:00 Prometheus polkitd[5532]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T13:14:31.194236+00:00 Prometheus groupadd[26284]: group added to /etc/group: name=snapd-range-524288-root, GID=524288
+2026-08-29T13:14:31.195456+00:00 Prometheus groupadd[26284]: group added to /etc/gshadow: name=snapd-range-524288-root
+2026-08-29T13:14:31.196194+00:00 Prometheus groupadd[26284]: new group: name=snapd-range-524288-root, GID=524288
+2026-08-29T13:14:31.206176+00:00 Prometheus useradd[26288]: new user: name=snapd-range-524288-root, UID=524288, GID=524288, home=/nonexistent, shell=/usr/bin/false, from=none
+2026-08-29T13:14:31.221082+00:00 Prometheus groupadd[26295]: group added to /etc/group: name=snap_daemon, GID=584788
+2026-08-29T13:14:31.223223+00:00 Prometheus groupadd[26295]: group added to /etc/gshadow: name=snap_daemon
+2026-08-29T13:14:31.223844+00:00 Prometheus groupadd[26295]: new group: name=snap_daemon, GID=584788
+2026-08-29T13:14:31.230766+00:00 Prometheus useradd[26299]: new user: name=snap_daemon, UID=584788, GID=584788, home=/nonexistent, shell=/usr/bin/false, from=none
+2026-08-29T13:15:44.102275+00:00 Prometheus gnome-keyring-daemon[7496]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T13:18:23.534632+00:00 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T13:18:23.546138+00:00 Prometheus sudo: hayat : TTY=/dev/pts/0 ; PWD=/home/hayat ; USER=root ; COMMAND=/usr/bin/apt remove code
+2026-08-29T13:18:33.350614+00:00 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T13:18:45.030480+00:00 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T13:18:45.030990+00:00 Prometheus pkexec[28980]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T13:19:13.154136+00:00 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T13:19:13.154317+00:00 Prometheus sudo: hayat : TTY=/dev/pts/1 ; PWD=/home/hayat ; USER=root ; COMMAND=/usr/bin/apt purge code
+2026-08-29T13:19:21.328553+00:00 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T13:20:18.576366+00:00 Prometheus polkitd[5532]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T13:20:22.936762+00:00 Prometheus unix_chkpwd[29393]: password check failed for user (hayat)
+2026-08-29T13:20:22.937604+00:00 Prometheus polkit-agent-helper-1[29337]: pam_unix(polkit-1:auth): authentication failure; logname= uid=0 euid=0 tty= ruser=hayat rhost=  user=hayat
+2026-08-29T13:21:45.012932+00:00 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T13:21:45.013487+00:00 Prometheus pkexec[31008]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T13:28:05.263706+00:00 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T13:28:05.263837+00:00 Prometheus sudo: hayat : TTY=/dev/pts/0 ; PWD=/home/hayat ; USER=root ; COMMAND=/usr/bin/apt install git
+2026-08-29T13:28:54.828982+00:00 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T13:30:45.490950+00:00 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T13:30:45.491582+00:00 Prometheus pkexec[33702]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T13:35:21.960439+00:00 Prometheus gnome-keyring-daemon[7496]: couldn't initialize slot with master password: The password or PIN is incorrect
+2026-08-29T13:35:21.961665+00:00 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T13:42:19.752997+00:00 Prometheus gnome-keyring-daemon[7496]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T13:43:13.464387+00:00 Prometheus systemd-logind[5566]: Watching system buttons on /dev/input/event16 (SEMICO USB Keyboard Consumer Control)
+2026-08-29T13:43:13.465514+00:00 Prometheus systemd-logind[5566]: Watching system buttons on /dev/input/event17 (SEMICO USB Keyboard System Control)
+2026-08-29T13:43:13.469157+00:00 Prometheus systemd-logind[5566]: Watching system buttons on /dev/input/event15 (SEMICO USB Keyboard)
+2026-08-29T13:46:52.534914+00:00 Prometheus systemd-logind[5566]: The system will reboot now!
+2026-08-29T13:46:52.567432+00:00 Prometheus systemd-logind[5566]: System is rebooting.
+2026-08-29T13:46:52.581048+00:00 Prometheus gdm-password]: pam_unix(gdm-password:session): session closed for user hayat
+2026-08-29T13:46:52.744054+00:00 Prometheus dbus-daemon[5520]: [system] Rejected send message, 1 matched rules; type="method_call", sender=":1.3" (uid=0 pid=5517 comm="/usr/libexec/bluetooth/bluetoothd" label="unconfined") interface="org.bluez.GattProfile1" member="Release" error name="(unset)" requested_reply="0" destination=":1.97" (uid=1000 pid=7513 comm="/usr/bin/wireplumber" label="unconfined")
+2026-08-29T13:46:52.802141+00:00 Prometheus systemd-logind[5566]: Session 2 logged out. Waiting for processes to exit.
+2026-08-29T19:17:19.057616+05:30 Prometheus systemd-logind[1545]: New seat seat0.
+2026-08-29T19:17:19.057620+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event7 (SEMICO USB Keyboard)
+2026-08-29T19:17:19.057623+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event8 (SEMICO USB Keyboard Consumer Control)
+2026-08-29T19:17:19.057627+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event9 (SEMICO USB Keyboard System Control)
+2026-08-29T19:17:19.057631+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event0 (Lid Switch)
+2026-08-29T19:17:19.057648+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event2 (Power Button)
+2026-08-29T19:17:19.057651+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event1 (Power Button)
+2026-08-29T19:17:19.057655+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard)
+2026-08-29T19:17:19.057662+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event12 (HP WMI hotkeys)
+2026-08-29T19:17:20.668749+05:30 Prometheus gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm-greeter(uid=60578) by (uid=0)
+2026-08-29T19:17:20.684862+05:30 Prometheus systemd-logind[1545]: New session 'c1' of user 'gdm-greeter' with class 'greeter' and type 'wayland'.
+2026-08-29T19:17:20.732430+05:30 Prometheus (systemd): pam_unix(systemd-user:session): session opened for user gdm-greeter(uid=60578) by gdm-greeter(uid=0)
+2026-08-29T19:17:20.733106+05:30 Prometheus systemd-logind[1545]: New session '1' of user 'gdm-greeter' with class 'manager-early' and type 'unspecified'.
+2026-08-29T19:17:31.786803+05:30 Prometheus gdm-password]: gkr-pam: unable to locate daemon control file
+2026-08-29T19:17:31.786868+05:30 Prometheus gdm-password]: gkr-pam: stashed password to try later in open session
+2026-08-29T19:17:31.802962+05:30 Prometheus gdm-password]: pam_unix(gdm-password:session): session opened for user hayat(uid=1000) by hayat(uid=0)
+2026-08-29T19:17:31.812422+05:30 Prometheus systemd-logind[1545]: New session '2' of user 'hayat' with class 'user' and type 'wayland'.
+2026-08-29T19:17:31.841122+05:30 Prometheus (systemd): pam_unix(systemd-user:session): session opened for user hayat(uid=1000) by hayat(uid=0)
+2026-08-29T19:17:31.841836+05:30 Prometheus systemd-logind[1545]: New session '3' of user 'hayat' with class 'manager' and type 'unspecified'.
+2026-08-29T19:17:32.048829+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T19:17:36.223142+05:30 Prometheus gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm-greeter
+2026-08-29T19:17:36.226615+05:30 Prometheus systemd-logind[1545]: Session c1 logged out. Waiting for processes to exit.
+2026-08-29T19:17:36.228773+05:30 Prometheus systemd-logind[1545]: Removed session c1.
+2026-08-29T19:17:37.224570+05:30 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T19:17:37.226210+05:30 Prometheus pkexec[4799]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T19:17:46.553838+05:30 Prometheus systemd-logind[1545]: Removed session 1.
+2026-08-29T19:17:46.554144+05:30 Prometheus (sd-pam): pam_unix(systemd-user:session): session closed for user gdm-greeter
+2026-08-29T19:30:01.706585+05:30 Prometheus CRON[10840]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T19:30:01.709896+05:30 Prometheus CRON[10840]: pam_unix(cron:session): session closed for user root
+2026-08-29T19:53:06.708713+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T19:55:39.360307+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T20:09:58.405031+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event8 (SEMICO USB Keyboard Consumer Control)
+2026-08-29T20:09:58.411579+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event9 (SEMICO USB Keyboard System Control)
+2026-08-29T20:09:58.416586+05:30 Prometheus systemd-logind[1545]: Watching system buttons on /dev/input/event7 (SEMICO USB Keyboard)
+2026-08-29T20:10:03.175826+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T20:17:01.737683+05:30 Prometheus CRON[16457]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T20:17:01.741692+05:30 Prometheus CRON[16457]: pam_unix(cron:session): session closed for user root
+2026-08-29T20:19:09.257516+05:30 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T20:19:09.257678+05:30 Prometheus sudo: hayat : TTY=/dev/pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat boot.log
+2026-08-29T20:19:09.319025+05:30 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T20:20:17.356834+05:30 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T20:20:17.358289+05:30 Prometheus sudo: hayat : TTY=/dev/pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cp boot.log /run/media/hayat/Asgard/UbuntuBoot.log
+2026-08-29T20:20:17.358989+05:30 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T20:22:51.694066+05:30 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T20:22:51.694256+05:30 Prometheus sudo: hayat : TTY=/dev/pts/0 ; PWD=/run/media/hayat/Asgard ; USER=root ; COMMAND=/usr/bin/cp UbuntuBoot.log SentinelAI/logs/boot.log
+2026-08-29T20:22:51.695626+05:30 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T20:23:05.126086+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T20:25:08.924827+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T20:25:12.543343+05:30 Prometheus unix_chkpwd[17889]: password check failed for user (hayat)
+2026-08-29T20:25:12.543663+05:30 Prometheus polkit-agent-helper-1[17875]: pam_unix(polkit-1:auth): authentication failure; logname= uid=0 euid=0 tty= ruser=hayat rhost=  user=hayat
+2026-08-29T20:30:01.752173+05:30 Prometheus CRON[18852]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T20:30:01.754272+05:30 Prometheus CRON[18852]: pam_unix(cron:session): session closed for user root
+2026-08-29T20:33:16.212694+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T20:35:31.588608+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T20:41:17.278786+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T20:43:04.302606+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T20:43:15.459359+05:30 Prometheus runuser: pam_unix(runuser:session): session opened for user hayat(uid=1000) by (uid=0)
+2026-08-29T20:43:15.875901+05:30 Prometheus runuser: pam_unix(runuser:session): session closed for user hayat
+2026-08-29T20:48:58.456227+05:30 Prometheus PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.package-install-untrusted auth (only_trusted:0)
+2026-08-29T20:48:58.462797+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T20:49:04.551479+05:30 Prometheus PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.package-install-untrusted
+2026-08-29T20:52:09.351862+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T20:53:36.105299+05:30 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T20:53:36.105772+05:30 Prometheus pkexec[26589]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T20:55:08.566396+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T20:57:24.563793+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T21:00:55.204291+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T21:16:49.454945+05:30 Prometheus unix_chkpwd[31222]: password check failed for user (hayat)
+2026-08-29T21:16:49.455255+05:30 Prometheus gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=hayat uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=hayat
+2026-08-29T21:17:01.816332+05:30 Prometheus CRON[31230]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T21:17:01.820832+05:30 Prometheus CRON[31230]: pam_unix(cron:session): session closed for user root
+2026-08-29T21:17:08.043499+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T21:18:19.000356+05:30 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T21:18:19.044997+05:30 Prometheus sudo: hayat : TTY=/dev/pts/1 ; PWD=/home/hayat ; USER=root ; COMMAND=/usr/bin/apt install curl
+2026-08-29T21:18:28.573219+05:30 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T21:20:36.022800+05:30 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T21:20:36.023303+05:30 Prometheus pkexec[32533]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T21:21:21.728151+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T21:30:01.846095+05:30 Prometheus CRON[35507]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T21:30:01.849133+05:30 Prometheus CRON[35507]: pam_unix(cron:session): session closed for user root
+2026-08-29T21:44:03.439494+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T21:50:41.643511+05:30 Prometheus systemd-logind[1545]: Power key pressed short.
+2026-08-29T22:17:01.880028+05:30 Prometheus CRON[37906]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T22:17:01.885384+05:30 Prometheus CRON[37906]: pam_unix(cron:session): session closed for user root
+2026-08-29T22:30:01.898603+05:30 Prometheus CRON[38161]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T22:30:01.909691+05:30 Prometheus CRON[38161]: pam_unix(cron:session): session closed for user root
+2026-08-29T22:51:16.931712+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T22:53:38.081106+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T22:58:26.136568+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T23:00:20.926273+05:30 Prometheus gnome-keyring-daemon[3398]: asked to register item /org/freedesktop/secrets/collection/login/1, but it's already registered
+2026-08-29T23:06:40.423109+05:30 Prometheus sudo: pam_unix(sudo:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T23:06:40.424721+05:30 Prometheus sudo: hayat : TTY=/dev/pts/1 ; PWD=/run/media/hayat/Asgard/SentinelAI/logs ; USER=root ; COMMAND=/usr/bin/chmod 777 boot.log
+2026-08-29T23:06:40.429844+05:30 Prometheus sudo: pam_unix(sudo:session): session closed for user root
+2026-08-29T23:14:33.090505+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T23:14:37.727164+05:30 Prometheus unix_chkpwd[46168]: password check failed for user (hayat)
+2026-08-29T23:14:37.727387+05:30 Prometheus polkit-agent-helper-1[46166]: pam_unix(polkit-1:auth): authentication failure; logname= uid=0 euid=0 tty= ruser=hayat rhost=  user=hayat
+2026-08-29T23:17:01.962822+05:30 Prometheus CRON[47306]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T23:17:01.966759+05:30 Prometheus CRON[47306]: pam_unix(cron:session): session closed for user root
+2026-08-29T23:18:37.998884+05:30 Prometheus runuser: pam_unix(runuser:session): session opened for user hayat(uid=1000) by (uid=0)
+2026-08-29T23:18:38.097295+05:30 Prometheus runuser: pam_unix(runuser:session): session closed for user hayat
+2026-08-29T23:20:25.852278+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T23:30:01.976893+05:30 Prometheus CRON[48978]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-29T23:30:01.979307+05:30 Prometheus CRON[48978]: pam_unix(cron:session): session closed for user root
+2026-08-29T23:30:07.286107+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T23:48:55.138308+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
+2026-08-29T23:50:36.186672+05:30 Prometheus pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by hayat(uid=1000)
+2026-08-29T23:50:36.187039+05:30 Prometheus pkexec[51864]: hayat: Executing command [USER=root] [TTY=unknown] [CWD=/home/hayat] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-08-29T23:50:38.341536+05:30 Prometheus polkitd[1489]: Identity `unix-group:admin' is not valid, ignoring: No UNIX group with name admin: No such file or directory
+2026-08-29T23:50:54.940387+05:30 Prometheus runuser: pam_unix(runuser:session): session opened for user hayat(uid=1000) by (uid=0)
+2026-08-29T23:50:55.102269+05:30 Prometheus runuser: pam_unix(runuser:session): session closed for user hayat
+2026-08-30T00:17:02.009393+05:30 Prometheus CRON[53428]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-08-30T00:17:02.013652+05:30 Prometheus CRON[53428]: pam_unix(cron:session): session closed for user root
+2026-08-30T00:17:16.642284+05:30 Prometheus gdm-password]: gkr-pam: unlocked login keyring
