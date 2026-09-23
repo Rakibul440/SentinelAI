@@ -1,0 +1,6 @@
+PyYAML
+pydantic
+httpx
+psutil
+watchdog
+python-dotenv
