@@ -68,7 +68,7 @@ python3 --version
 Clone the repository:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/Rakibul440/SentinelAI
 cd SentinelAI/agent
 ```
 
