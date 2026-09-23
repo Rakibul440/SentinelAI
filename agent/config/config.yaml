@@ -1,0 +1,4 @@
+logs :
+  auth : /var/log/auth.log
+  syslog : /var/log/syslog
+  

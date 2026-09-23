@@ -1,9 +1,13 @@
-PATH = "/var/log/auth.log"
+from config.loader import load_config
+
+config = load_config()
+authLogsPath = config['logs']['auth']
+
 
 def read_log_file(path):
     with open(path, "r") as file:
         return file.readlines()
 
-logs = read_log_file(PATH)
+logs = read_log_file(authLogsPath)
 
 print(logs)
