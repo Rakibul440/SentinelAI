@@ -1,4 +1,4 @@
-from config.loader import load_config
+from .loader import load_config
 
 config = load_config()
 authLogsPath = config['logs']['auth']
