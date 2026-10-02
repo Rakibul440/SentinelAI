@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">SentinelAI planned MVP architecture</title>
+  <desc id="desc">Linux, Nginx and application logs enter the Sentinel Agent, then backend ingestion and storage. Rules and Isolation Forest feed correlation and incidents, followed by timelines and evidence-grounded AI investigation. Backend and investigation stages are planned.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="m1 1 5 3-5 3" stroke="#64809C" stroke-width="1.5" fill="none"/></marker></defs>
+  <rect x="1" y="1" width="1198" height="608" rx="20" fill="#0D1626" stroke="#24334B"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="44" y="48" fill="#F1F5F9" font-size="21" font-weight="600">From telemetry to investigation</text>
+    <text x="44" y="75" fill="#94A3B8" font-size="14">Planned MVP architecture · implementation in progress</text>
+    <g stroke="#64809C" stroke-width="1.5" marker-end="url(#arrow)">
+      <path d="M332 162H428"/><path d="M772 162H868"/>
+      <path d="M1016 210V262H830V292"/><path d="M1016 262H370V292"/>
+      <path d="M370 380V411H600V444"/><path d="M830 380V411H600"/>
+      <path d="M828 489H866"/>
+    </g>
+    <rect x="44" y="114" width="288" height="96" rx="12" fill="#152236" stroke="#33465F"/>
+    <text x="64" y="146" fill="#F1F5F9" font-size="18" font-weight="600">01 / Security telemetry</text>
+    <text x="64" y="176" fill="#A8B8CC" font-size="14">Linux · SSH · Nginx · App logs</text>
+    <rect x="432" y="114" width="340" height="96" rx="12" fill="#102C3A" stroke="#28758A"/>
+    <text x="452" y="146" fill="#67E8F9" font-size="18" font-weight="600">02 / Sentinel Agent</text>
+    <text x="452" y="174" fill="#C3D5E2" font-size="14">Collect · Parse · Normalize</text>
+    <text x="452" y="194" fill="#C3D5E2" font-size="14">Buffer · Transmit</text>
+    <rect x="872" y="114" width="284" height="96" rx="12" fill="#152236" stroke="#33465F"/>
+    <text x="892" y="146" fill="#F1F5F9" font-size="18" font-weight="600">03 / Backend</text>
+    <text x="892" y="176" fill="#A8B8CC" font-size="14">Ingest · Validate · Store</text>
+    <rect x="180" y="292" width="380" height="88" rx="12" fill="#152236" stroke="#33465F"/>
+    <text x="202" y="327" fill="#F1F5F9" font-size="18" font-weight="600">Rule-based detection</text>
+    <text x="202" y="354" fill="#A8B8CC" font-size="14">Known patterns &amp; suspicious sequences</text>
+    <rect x="640" y="292" width="380" height="88" rx="12" fill="#1C2340" stroke="#464E7A"/>
+    <text x="662" y="327" fill="#C7D2FE" font-size="18" font-weight="600">ML anomaly detection</text>
+    <text x="662" y="354" fill="#A8B8CC" font-size="14">Isolation Forest · Behavioral deviations</text>
+    <rect x="372" y="448" width="456" height="88" rx="12" fill="#102C3A" stroke="#28758A"/>
+    <text x="394" y="481" fill="#67E8F9" font-size="18" font-weight="600">04 / Correlation &amp; incidents</text>
+    <text x="394" y="509" fill="#C3D5E2" font-size="14">Related evidence · Separate attacks · Risk &amp; confidence</text>
+    <rect x="872" y="448" width="284" height="88" rx="12" fill="#1C2340" stroke="#464E7A"/>
+    <text x="892" y="481" fill="#C7D2FE" font-size="18" font-weight="600">05 / Investigation</text>
+    <text x="892" y="509" fill="#C3D5E2" font-size="14">Timelines · AI explanations</text>
+    <circle cx="48" cy="573" r="4" fill="#67E8F9"/>
+    <text x="61" y="578" fill="#94A3B8" font-size="13">Raw evidence preserved</text>
+    <circle cx="373" cy="573" r="4" fill="#67E8F9"/>
+    <text x="386" y="578" fill="#94A3B8" font-size="13">Unknown logs retained</text>
+    <circle cx="699" cy="573" r="4" fill="#A5B4FC"/>
+    <text x="712" y="578" fill="#94A3B8" font-size="13">AI explanations grounded in evidence</text>
+  </g>
+</svg>
