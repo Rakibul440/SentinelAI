@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/sentinelai-banner.svg" alt="SentinelAI — From scattered logs to a connected story." width="100%">
+<img src="./sentinelai-banner.svg" alt="SentinelAI — From scattered logs to a connected story." width="100%">
 
 <br>
 
@@ -42,7 +42,7 @@ These describe the target MVP. See [Progress](#progress) for the current impleme
 
 ## Architecture
 
-<img src="assets/sentinelai-architecture.svg" alt="Planned architecture: Linux logs flow through the Sentinel Agent into backend ingestion, rule and ML detection, correlation, incidents, timelines, and AI-assisted investigation." width="100%">
+<img src="./sentinelai-architecture.svg" alt="Planned architecture: Linux logs flow through the Sentinel Agent into backend ingestion, rule and ML detection, correlation, incidents, timelines, and AI-assisted investigation." width="100%">
 
 | Layer | Responsibility |
 | :--- | :--- |
