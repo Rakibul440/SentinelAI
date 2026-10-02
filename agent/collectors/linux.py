@@ -10,4 +10,4 @@ def read_log_file(path):
 
 logs = read_log_file(authLogsPath)
 
-print(logs)
+print(logs[-1])

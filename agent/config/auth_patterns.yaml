@@ -1,0 +1,74 @@
+patterns:
+
+  - name: ssh_failed_password
+    process: sshd
+    pattern: "Failed password for"
+    event_type: authentication_failure
+
+  - name: ssh_failed_invalid_user
+    process: sshd
+    pattern: "Failed password for invalid user"
+    event_type: authentication_failure
+
+  - name: ssh_accepted_password
+    process: sshd
+    pattern: "Accepted password for"
+    event_type: authentication_success
+
+  - name: ssh_accepted_publickey
+    process: sshd
+    pattern: "Accepted publickey for"
+    event_type: authentication_success
+
+  - name: ssh_invalid_user
+    process: sshd
+    pattern: "Invalid user"
+    event_type: invalid_user
+
+  - name: ssh_too_many_failures
+    process: sshd
+    pattern: "Too many authentication failures"
+    event_type: authentication_failure_limit
+
+  - name: ssh_connection
+    process: sshd
+    pattern: "Connection from"
+    event_type: connection_started
+
+  - name: ssh_disconnect
+    process: sshd
+    pattern: "Received disconnect from"
+    event_type: connection_closed
+
+  - name: ssh_disconnected_user
+    process: sshd
+    pattern: "Disconnected from user"
+    event_type: connection_closed
+
+  - name: pam_auth_failure
+    process: pam_unix
+    pattern: "authentication failure"
+    event_type: authentication_failure
+
+  - name: pam_session_opened
+    process: pam_unix
+    pattern: "session opened for user"
+    event_type: session_opened
+
+  - name: pam_session_closed
+    process: pam_unix
+    pattern: "session closed for user"
+    event_type: session_closed
+
+  - name: unix_password_failure
+    process: unix_chkpwd
+    pattern: "password check failed for user"
+    event_type: authentication_failure
+
+  - name: account_locked
+    pattern: "account locked"
+    event_type: account_locked
+
+  - name: account_expired
+    pattern: "account expired"
+    event_type: account_expired

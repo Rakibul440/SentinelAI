@@ -13,3 +13,14 @@ class Event :
 
     message : str = ""
     metadata : dict = field(default_factory=dict)
+
+    def __str__(self):
+        return (
+            f"Event: {self.event_type}\n"
+            f"Time: {self.timestamp}\n"
+            f"Source: {self.source}\n"
+            f"User: {self.username}\n"
+            f"IP: {self.source_ip}\n"
+            f"Port: {self.port}\n"
+            f"Message: {self.message}"
+        )
