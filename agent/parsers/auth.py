@@ -10,7 +10,8 @@ print(f"AUTH_LOG_PATH :\n{AUTH_LOG_PATH["logs"]["auth"]}")
 
 parser = AuthLogParse()
 
-for log in logs[-10:-1]:
+for log in logs[-20:-1]:
     event = parser.parse(line=log)
     print(event)
     print(" AUTH LOG ".center(40, "="))
+    print("\n")
