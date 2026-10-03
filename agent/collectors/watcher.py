@@ -1,5 +1,4 @@
 import time
-
 from collectors.loader import load_config
 from parsers.base import AuthLogParse
 
