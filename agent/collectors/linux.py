@@ -8,6 +8,6 @@ def read_log_file(path):
     with open(path, "r") as file:
         return file.readlines()
 
-logs = read_log_file(authLogsPath)
+# logs = read_log_file(authLogsPath)
 
-print(logs[-1])
+# print(logs[-1])
