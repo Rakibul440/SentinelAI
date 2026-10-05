@@ -30,7 +30,10 @@ class DetectionEngine:
         self.rules = rules
 
     def run(self):
+        print("[✓] Starting Detection Engine..")
         events = get_events(DB_PATH)
+        
+        print(f"Total events: {len(events)}")
 
         if not events :
             print("No events found.")
@@ -39,7 +42,7 @@ class DetectionEngine:
         detections =[]
 
         for rule in self.rules :
-            results = rule.evalute(events)
+            results = rule.evaluate(events)
 
             if results :
                 detections.extend(results)
